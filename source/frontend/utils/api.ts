@@ -1,0 +1,1 @@
+export const MESSAGE_HOST = "http://localhost:2222/"

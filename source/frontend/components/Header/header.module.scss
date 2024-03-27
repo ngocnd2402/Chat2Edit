@@ -1,0 +1,25 @@
+@import "../../styles/variables.scss";
+.header {
+  .menuButton {
+    padding: .5em 1em;
+    &:hover {
+      color: $black-color;
+      background-color: $dark-white-color;
+      border-radius: 9999px;
+    }
+    &.active {
+      color: $primary-color;
+      background-color: $black-color;
+      border-radius: 9999px;
+    }
+  }
+  .loginButton {
+    padding: .5em 1em;
+    &:hover,
+    &.active {
+      color: $white-color;
+      background-color: $secondary-color;
+      border-radius: 9999px;
+    }
+  }
+}

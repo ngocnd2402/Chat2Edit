@@ -1,0 +1,6 @@
+[submodule "PowerPaint"]
+	path = PowerPaint
+	url = https://github.com/zhuang2002/PowerPaint
+[submodule "GroundingDINO"]
+	path = GroundingDINO
+	url = https://github.com/IDEA-Research/GroundingDINO
