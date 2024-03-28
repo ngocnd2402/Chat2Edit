@@ -14,7 +14,7 @@ from utils.read_txt import read_txt
 
 CONFIG_FILE_PATH = "config.yaml"
 # OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY") 
-OPENAI_API_KEY='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'
+OPENAI_API_KEY='xxxxx'
 
 config_manager = ConfigManager(CONFIG_FILE_PATH)
 OPENAI_MODEL_NAME = config_manager.get("openai_model_name")
